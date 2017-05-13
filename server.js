@@ -55,10 +55,10 @@ app.post('/api/users/:userId', function(req, res, next) {
     res.send(usersCtrl.updateUser(userId, userData));
 });
 app.delete('/api/users/:userId', function(req, res, next) {
-    var userId = res.params.userId;
+    var userId = req.params.userId;
     res.send(usersCtrl.removeUser(userId));
 });
-// 
+//
 // app.listen(port, function() {
 //     console.log('Listening on port', port, 'for aliens');
 // })

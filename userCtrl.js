@@ -44,7 +44,7 @@ module.exports = {
 
     return userlist;
   },
-  findUserByQuery : function (term, value, user) {
+  findUserByQuery : function (term, value) {
     //term, value
     console.log('findUserByQuery', term, value);
     var userlist;
