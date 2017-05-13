@@ -81,7 +81,7 @@ test('getUsersByAgeLimit', t => {
 
 test('findUserByQuery : last_name', t => {
   let result = userCtrl.findUserByQuery('last_name', 'Stone');
-  
+
   t.plan(3);
 
   t.truthy(result)
