@@ -20,7 +20,7 @@ id: number
 first_name: string
 last_name: string
 email: string
-gender: string,
+gender: string, 
 language: string,
 age: number,
 city: string,
